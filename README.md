@@ -9,6 +9,23 @@ This is a full-stack TypeScript example using:
   - Next.js [API routes](https://nextjs.org/docs/api-routes/introduction)
   - [stripe-node with TypeScript](https://github.com/stripe/stripe-node#usage-with-typescript)
 
+## TL:DR
+
+Eager to spin this example up as quickly as possible? All you need to do is:
+
+- Copy `.env.local.example` to `.env.local` and define your settings for Stripe
+- Start the Stripe CLI in another terminal:
+
+  ```sh
+  % stripe listen --forward-to localhost:3000/api/webhooks
+
+  Getting ready... > Ready! You are using Stripe API Version [2020-08-27]. Your webhook signing secret is whsec_JzpMf1AZJnntAiYCt9ziz026vrGLliQD
+  ```
+
+  - Look for the webhook signing secret value and use that in your `.env.local` file
+
+- Start the Next.js application - `npm run dev`
+
 ## Demo
 
 - Live demo: https://nextjs-typescript-react-stripe-js.vercel.app/
