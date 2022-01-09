@@ -23,5 +23,13 @@
     "@types/node": "^13.1.2",
     "@types/react": "^16.9.17",
     "typescript": "^3.7.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/nextjs-with-stripe-typescript-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/nextjs-with-stripe-typescript-app/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/nextjs-with-stripe-typescript-app#readme"
 }
